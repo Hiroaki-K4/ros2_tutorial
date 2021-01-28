@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/hiroaki-k4/my_project/ros2/dev_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hiroaki-k4/my_project/ros2/dev_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/hiroaki-k4/my_project/ros2/dev_ws/install/more_interfaces
+[0.024s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.038s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.038s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.163s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.165s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.305s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.340s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.341s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.466s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[0.553s] -- Found ament_cmake_ros: 0.9.0 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.672s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[0.672s] -- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.688s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.688s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.688s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.702s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.702s]   ament_target_dependencies() the first argument must be a valid target name
+[0.703s] Call Stack (most recent call first):
+[0.703s]   CMakeLists.txt:37 (ament_target_dependencies)
+[0.703s] 
+[0.703s] 
+[0.703s] -- Configuring incomplete, errors occurred!
+[0.704s] See also "/home/hiroaki-k4/my_project/ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[0.704s] See also "/home/hiroaki-k4/my_project/ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeError.log".
+[0.709s] Invoked command in '/home/hiroaki-k4/my_project/ros2/dev_ws/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hiroaki-k4/my_project/ros2/dev_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/hiroaki-k4/my_project/ros2/dev_ws/install/more_interfaces
