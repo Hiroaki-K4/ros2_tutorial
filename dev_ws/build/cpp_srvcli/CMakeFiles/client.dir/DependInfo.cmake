@@ -17,6 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces/include"
   "/opt/ros/foxy/include"
   )
 

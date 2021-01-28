@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.001041] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001092] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001170] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001203] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces')])}
+[0.001245] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.010896] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.099710] (-) TimerEvent: {}
+[0.118587] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.119884] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_pubsub', '--', '-j16', '-l16'], 'cwd': '/home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hiroaki-k4'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '1694'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces/lib:/home/hiroaki-k4/my_project/ros2/dev_ws/install/turtlesim/lib:/usr/local/cuda-11.0/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.0/lib64'), ('HOME', '/home/hiroaki-k4'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hiroaki-k4/my_project/ros2/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.52.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45295'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hiroaki-k4/my_project/ros2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'hiroaki-k4'), ('JOURNAL_STREAM', '8:44482'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'hiroaki-k4'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.0/bin:/home/hiroaki-k4/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.0/bin:/home/hiroaki-k4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Hiroaki-K4:@/tmp/.ICE-unix/1728,unix/Hiroaki-K4:/tmp/.ICE-unix/1728'), ('INVOCATION_ID', '834359e2cd5941d09fc965b401492fa0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a0fd0a0b1e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces:/home/hiroaki-k4/my_project/ros2/dev_ws/install/turtlesim:/home/hiroaki-k4/my_project/ros2/dev_ws/install/my_package:/home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli:/home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_pubsub:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/hiroaki-k4/my_project/ros2/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces:/home/hiroaki-k4/my_project/ros2/dev_ws/install/turtlesim:/home/hiroaki-k4/my_project/ros2/dev_ws/install/my_package:/home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli:/home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.175046] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.193935] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199771] (-) TimerEvent: {}
+[0.299988] (-) TimerEvent: {}
+[0.400251] (-) TimerEvent: {}
+[0.500484] (-) TimerEvent: {}
+[0.600689] (-) TimerEvent: {}
+[0.701518] (-) TimerEvent: {}
+[0.802463] (-) TimerEvent: {}
+[0.902937] (-) TimerEvent: {}
+[1.003182] (-) TimerEvent: {}
+[1.103440] (-) TimerEvent: {}
+[1.203753] (-) TimerEvent: {}
+[1.272529] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.303824] (-) TimerEvent: {}
+[1.404053] (-) TimerEvent: {}
+[1.504320] (-) TimerEvent: {}
+[1.524977] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.529137] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.604425] (-) TimerEvent: {}
+[1.642237] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.704505] (-) TimerEvent: {}
+[1.738948] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.750621] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.804589] (-) TimerEvent: {}
+[1.904840] (-) TimerEvent: {}
+[2.005121] (-) TimerEvent: {}
+[2.068335] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[2.105195] (-) TimerEvent: {}
+[2.122408] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.135270] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[2.137403] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_pubsub\n'}
+[2.176675] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[2.176965] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[2.203831] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[2.205257] (-) TimerEvent: {}
+[2.206426] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[2.305362] (-) TimerEvent: {}
+[2.405676] (-) TimerEvent: {}
+[2.506005] (-) TimerEvent: {}
+[2.606277] (-) TimerEvent: {}
+[2.706547] (-) TimerEvent: {}
+[2.806851] (-) TimerEvent: {}
+[2.907143] (-) TimerEvent: {}
+[3.007434] (-) TimerEvent: {}
+[3.107698] (-) TimerEvent: {}
+[3.207953] (-) TimerEvent: {}
+[3.308217] (-) TimerEvent: {}
+[3.408524] (-) TimerEvent: {}
+[3.508858] (-) TimerEvent: {}
+[3.581703] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.581957] (cpp_pubsub) StderrLine: {'line': b'   48 |   rclcpp::Publisher<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>::SharedPtr publisher_;\n'}
+[3.582062] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.582147] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.582231] (cpp_pubsub) StderrLine: {'line': b'   48 |   rclcpp::Publisher<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[3.582342] (cpp_pubsub) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.582428] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.582513] (cpp_pubsub) StderrLine: {'line': b'   48 |   rclcpp::Publisher<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[3.582595] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.582677] (cpp_pubsub) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.582982] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.583080] (cpp_pubsub) StderrLine: {'line': b'   48 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[3.583164] (cpp_pubsub) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.583253] (cpp_pubsub) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[3.584937] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.585040] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:34:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.585140] (cpp_pubsub) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::String>("topic", 10);\n'}
+[3.585233] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.585317] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[3.586125] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:34:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.586387] (cpp_pubsub) StderrLine: {'line': b'   34 |     publisher_ = this->create_publisher<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>("topic", 10);\n'}
+[3.586494] (cpp_pubsub) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.586586] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:34:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.586679] (cpp_pubsub) StderrLine: {'line': b'   34 |     publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<std_msgs::msg::String>\x1b[m\x1b[K("topic", 10);\n'}
+[3.586768] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.586865] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:34:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.586961] (cpp_pubsub) StderrLine: {'line': b'   34 |     publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.587050] (cpp_pubsub) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.587137] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.587225] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.587311] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[3.587399] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[3.587487] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.587588] (cpp_pubsub) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[3.587675] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.587761] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.587848] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:34:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.587935] (cpp_pubsub) StderrLine: {'line': b'   34 |     publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.588022] (cpp_pubsub) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.596876] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.597020] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hiroaki-k4/my_project/ros2/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:45:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.597116] (cpp_pubsub) StderrLine: {'line': b'   45 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[3.597205] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.597301] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[3.608929] (-) TimerEvent: {}
+[3.709190] (-) TimerEvent: {}
+[3.809486] (-) TimerEvent: {}
+[3.869730] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[3.869983] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2\n'}
+[3.870084] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[3.909567] (-) TimerEvent: {}
+[4.009854] (-) TimerEvent: {}
+[4.110159] (-) TimerEvent: {}
+[4.210481] (-) TimerEvent: {}
+[4.310790] (-) TimerEvent: {}
+[4.411088] (-) TimerEvent: {}
+[4.511395] (-) TimerEvent: {}
+[4.611709] (-) TimerEvent: {}
+[4.712010] (-) TimerEvent: {}
+[4.812310] (-) TimerEvent: {}
+[4.912597] (-) TimerEvent: {}
+[5.012879] (-) TimerEvent: {}
+[5.113182] (-) TimerEvent: {}
+[5.213487] (-) TimerEvent: {}
+[5.313790] (-) TimerEvent: {}
+[5.414075] (-) TimerEvent: {}
+[5.514384] (-) TimerEvent: {}
+[5.614687] (-) TimerEvent: {}
+[5.714985] (-) TimerEvent: {}
+[5.815277] (-) TimerEvent: {}
+[5.915580] (-) TimerEvent: {}
+[6.015900] (-) TimerEvent: {}
+[6.116202] (-) TimerEvent: {}
+[6.216549] (-) TimerEvent: {}
+[6.223135] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.316660] (-) TimerEvent: {}
+[6.416976] (-) TimerEvent: {}
+[6.517296] (-) TimerEvent: {}
+[6.617651] (-) TimerEvent: {}
+[6.640311] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[6.641270] (cpp_pubsub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.643057] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[6.675246] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[6.685637] (-) EventReactorShutdown: {}

@@ -1,0 +1,44 @@
+[0.128s] Invoking command in '/home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces/lib:/home/hiroaki-k4/my_project/ros2/dev_ws/install/turtlesim/lib:/usr/local/cuda-11.0/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.0/lib64 /usr/bin/cmake --build /home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_srvcli -- -j16 -l16
+[0.192s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.212s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.377s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.401s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.404s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.548s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.549s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.657s] -- Found tutorial_interfaces: 0.0.0 (/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.744s] -- Configuring done
+[0.762s] -- Generating done
+[0.764s] -- Build files have been written to: /home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_srvcli
+[0.824s] [35m[1mScanning dependencies of target server[0m
+[0.824s] [35m[1mScanning dependencies of target client[0m
+[0.852s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.854s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[2.193s] [ 75%] [32m[1mLinking CXX executable server[0m
+[2.291s] [ 75%] Built target server
+[2.387s] [100%] [32m[1mLinking CXX executable client[0m
+[2.479s] [100%] Built target client
+[2.491s] Invoked command in '/home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces/lib:/home/hiroaki-k4/my_project/ros2/dev_ws/install/turtlesim/lib:/usr/local/cuda-11.0/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.0/lib64 /usr/bin/cmake --build /home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_srvcli -- -j16 -l16
+[2.531s] Invoking command in '/home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces/lib:/home/hiroaki-k4/my_project/ros2/dev_ws/install/turtlesim/lib:/usr/local/cuda-11.0/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.0/lib64 /usr/bin/cmake --install /home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_srvcli
+[2.540s] -- Install configuration: ""
+[2.577s] -- Installing: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[2.578s] -- Set runtime path of "/home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[2.580s] -- Installing: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[2.581s] -- Set runtime path of "/home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[2.581s] -- Installing: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[2.587s] -- Installing: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[2.587s] -- Up-to-date: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[2.587s] -- Installing: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[2.587s] -- Up-to-date: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[2.587s] -- Installing: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[2.587s] -- Up-to-date: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[2.587s] -- Up-to-date: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[2.588s] -- Up-to-date: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[2.588s] -- Installing: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[2.588s] -- Installing: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[2.588s] -- Up-to-date: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[2.588s] -- Up-to-date: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[2.588s] -- Up-to-date: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[2.588s] -- Installing: /home/hiroaki-k4/my_project/ros2/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[2.591s] Invoked command in '/home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/hiroaki-k4/my_project/ros2/dev_ws/install/tutorial_interfaces/lib:/home/hiroaki-k4/my_project/ros2/dev_ws/install/turtlesim/lib:/usr/local/cuda-11.0/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.0/lib64 /usr/bin/cmake --install /home/hiroaki-k4/my_project/ros2/dev_ws/build/cpp_srvcli
